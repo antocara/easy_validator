@@ -7,7 +7,6 @@ void main() {
       .addRule(EmailRule())
       .check();
 
-
   print("isValid => $isValid");
 
   final isValidPassword = Validator(text: "Passw0rd#Suc2021")
@@ -19,7 +18,6 @@ void main() {
       .addErrorCallback((msg) => print(msg))
       .addSuccessCallback(() => print("validation successful"))
       .check();
-
 
   print("isValidPassword => $isValidPassword");
 

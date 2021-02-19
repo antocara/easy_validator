@@ -1,4 +1,3 @@
-
 import '../extensions/string_extension.dart';
 import 'base_rule.dart';
 import 'credit_cards_patterns.dart';

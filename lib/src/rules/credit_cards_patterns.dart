@@ -2,19 +2,7 @@ class CreditCardPatterns {
   static final patterns = _buildCardPatterns();
 
   static List<String> _buildCardPatterns() {
-    final listOfPattern = List<String>();
-    // final ptVisa = "^4[0-9]{6,}\$";
-    // listOfPattern.add(ptVisa);
-    // final ptMasterCard = "^5[1-5][0-9]{5,}\$";
-    // listOfPattern.add(ptMasterCard);
-    // final ptAmeExp = "^3[47][0-9]{5,}\$";
-    // listOfPattern.add(ptAmeExp);
-    // final ptDinClb = "^3(?:0[0-5]|[68][0-9])[0-9]{4,}\$";
-    // listOfPattern.add(ptDinClb);
-    // final ptDiscover = "^6(?:011|5[0-9]{2})[0-9]{3,}\$";
-    // listOfPattern.add(ptDiscover);
-    // final ptJcb = "^(?:2131|1800|35[0-9]{3})[0-9]{3,}\$";
-    // listOfPattern.add(ptJcb);
+    final List<String> listOfPattern = [];
     listOfPattern.add(amex);
     listOfPattern.add(bcGlobal);
     listOfPattern.add(carteBlanche);
@@ -47,7 +35,8 @@ class CreditCardPatterns {
   static final laser = "^(6304|6706|6709|6771)[0-9]{12,15}\$";
   static final maestro = "^(5018|5020|5038|6304|6759|6761|6763)[0-9]{8,15}\$";
   static final mastercard = "^5[1-5][0-9]{14}\$";
-  static final solo = "^(6334|6767)[0-9]{12}|(6334|6767)[0-9]{14}|(6334|6767)[0-9]{15}\$";
+  static final solo =
+      "^(6334|6767)[0-9]{12}|(6334|6767)[0-9]{14}|(6334|6767)[0-9]{15}\$";
   static final switchCard =
       "^(4903|4905|4911|4936|6333|6759)[0-9]{12}|(4903|4905|4911|4936|6333|6759)[0-9]{14}|(4903|4905|4911|4936|6333|6759)[0-9]{15}|564182[0-9]{10}|564182[0-9]{12}|564182[0-9]{13}|633110[0-9]{10}|633110[0-9]{12}|633110[0-9]{13}\$";
   static final unionPay = "^(62[0-9]{14,17})\$";

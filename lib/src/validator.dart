@@ -1,5 +1,3 @@
-
-
 import 'package:easy_validator/src/rules/base_rule.dart';
 import 'package:easy_validator/src/rules/non_empty_rule.dart';
 import 'package:easy_validator/src/rules/regex_rule.dart';
@@ -8,7 +6,7 @@ class Validator {
   Validator({String text}) : _text = text;
 
   var _text;
-  var rulesList = List<BaseRule>();
+  List<BaseRule> rulesList = [];
 
   var _isValid = true;
   var _errorMessage = "";
@@ -54,7 +52,8 @@ class Validator {
 
   /// Rules
   Validator nonEmpty(String errorMsg) {
-    final rule = errorMsg == null ? NonEmptyRule() : NonEmptyRule(errorMsg: errorMsg);
+    final rule =
+        errorMsg == null ? NonEmptyRule() : NonEmptyRule(errorMsg: errorMsg);
     addRule(rule);
     return this;
   }

@@ -1,4 +1,3 @@
-
 import 'package:easy_validator/src/rules/at_least_one_lower_case_rule.dart';
 import 'package:test/test.dart';
 
