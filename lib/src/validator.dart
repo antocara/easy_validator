@@ -1,5 +1,3 @@
-
-
 import '../easy_data_validator.dart';
 
 class Validator {
