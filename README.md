@@ -1,5 +1,6 @@
 
 <p align="center">
+    <a href="https://github.com/antocara/easy_validator/actions"><img src="https://github.com/antocara/easy_validator/workflows/Basic%20Flutter%20CI/badge.svg" alt="GitHub Build Badge"></a>
 	<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="MIT License Badge"></a>
 	<a href="https://github.com/antocara/easy_validator"><img src="https://img.shields.io/badge/platform-flutter-ff69b4.svg" alt="Flutter Platform Badge"></a>
 </p>
