@@ -1,6 +1,6 @@
 name: easy_data_validator
 description: Easy Validator is a text validation library for Dart/Flutter developed in Dart
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/antocara/easy_validator
 
 environment:
