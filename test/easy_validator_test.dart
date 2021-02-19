@@ -1,7 +1,8 @@
-import 'package:easy_validator/src/rules/all_uppercase_rule.dart';
-import 'package:easy_validator/src/rules/at_least_one_lower_case_rule.dart';
-import 'package:easy_validator/src/rules/no_numbers_rule.dart';
-import 'package:easy_validator/src/validator.dart';
+
+
+
+
+import 'package:easy_data_validator/easy_data_validator.dart';
 import 'package:test/test.dart';
 
 void main() {

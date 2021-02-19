@@ -1,6 +1,6 @@
-import 'package:easy_validator/src/rules/base_rule.dart';
-import 'package:easy_validator/src/rules/non_empty_rule.dart';
-import 'package:easy_validator/src/rules/regex_rule.dart';
+
+
+import '../easy_data_validator.dart';
 
 class Validator {
   Validator({String text}) : _text = text;

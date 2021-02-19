@@ -1,4 +1,4 @@
-import 'package:easy_validator/src/rules/all_lower_case_rule.dart';
+import 'package:easy_data_validator/easy_data_validator.dart';
 import 'package:test/test.dart';
 
 void main() {

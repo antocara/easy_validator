@@ -1,4 +1,5 @@
-import 'package:easy_validator/src/rules/max_length_rule.dart';
+
+import 'package:easy_data_validator/easy_data_validator.dart';
 import 'package:test/test.dart';
 
 void main() {

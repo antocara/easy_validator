@@ -1,4 +1,5 @@
-import 'package:easy_validator/src/rules/credit_card_rule.dart';
+
+import 'package:easy_data_validator/easy_data_validator.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

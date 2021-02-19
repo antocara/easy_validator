@@ -60,11 +60,11 @@ final isValidText = Validator(text: "Anto")
 
 ### Installation
 
-Add `easy_validator` as dependency to your flutter project by adding this lines to `pubspec.yaml`.
+Add `easy_data_validator` as dependency to your flutter project by adding this lines to `pubspec.yaml`.
 
 ```yaml
 dependencies:
-  easy_validator: ">=1.0.0 <2.0.0"
+  easy_data_validator: ">=1.0.0 <2.0.0"
 ```
 
 Then run `flutter pub get` to install required dependencies.

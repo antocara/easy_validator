@@ -1,4 +1,4 @@
-import 'package:easy_validator/easy_validator.dart';
+import 'package:easy_data_validator/easy_data_validator.dart';
 
 void main() {
   final isValid = Validator(text: "email@gmail.com")

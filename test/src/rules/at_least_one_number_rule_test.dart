@@ -1,4 +1,5 @@
-import 'package:easy_validator/src/rules/at_least_one_number_rule.dart';
+
+import 'package:easy_data_validator/easy_data_validator.dart';
 import 'package:test/test.dart';
 
 void main() {

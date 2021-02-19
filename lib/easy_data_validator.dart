@@ -1,4 +1,4 @@
-library easy_validator;
+library easy_data_validator;
 
 export 'src/extensions/string_extension.dart';
 export 'src/rules/all_lower_case_rule.dart';
