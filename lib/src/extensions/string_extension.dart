@@ -9,7 +9,7 @@ extension StringExtension on String {
 
   bool regex({String pattern, Function(String msg) callback}) {
     var validator = this.validator().regex(pattern: pattern);
-    if (callback != null){
+    if (callback != null) {
       validator..addErrorCallback((msg) => msg);
     }
     return validator.check();

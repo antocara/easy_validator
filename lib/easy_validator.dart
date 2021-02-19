@@ -1,7 +1,5 @@
 library easy_validator;
 
-
-export 'src/validator.dart';
 export 'src/extensions/string_extension.dart';
 export 'src/rules/all_lower_case_rule.dart';
 export 'src/rules/all_uppercase_rule.dart';
@@ -24,3 +22,4 @@ export 'src/rules/not_contains_rule.dart';
 export 'src/rules/only_numbers_rule.dart';
 export 'src/rules/regex_rule.dart';
 export 'src/rules/text_equal_to_rule.dart';
+export 'src/validator.dart';

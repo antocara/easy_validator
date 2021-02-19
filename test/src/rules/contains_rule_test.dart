@@ -1,4 +1,3 @@
-
 import 'package:easy_validator/src/rules/contains_rule.dart';
 import 'package:test/test.dart';
 

@@ -1,4 +1,3 @@
-
 import 'package:easy_validator/src/rules/credit_card_rule.dart';
 import 'package:flutter_test/flutter_test.dart';
 

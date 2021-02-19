@@ -1,4 +1,3 @@
-
 import 'package:easy_validator/src/rules/non_empty_rule.dart';
 import 'package:test/test.dart';
 

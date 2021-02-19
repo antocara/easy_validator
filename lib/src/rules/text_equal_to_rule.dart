@@ -2,7 +2,7 @@ import 'base_rule.dart';
 
 class TextEqualToRule extends BaseRule {
   TextEqualToRule({String target, String errorMsg}) {
-    this.errorMsg("Should be equal to $target");
+    this.errorMsg = ("Should be equal to $target");
     this._target = target;
   }
 

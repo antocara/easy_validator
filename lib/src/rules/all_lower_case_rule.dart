@@ -9,4 +9,3 @@ class AllLowerCaseRule extends BaseRule {
     return text == text.toLowerCase();
   }
 }
-

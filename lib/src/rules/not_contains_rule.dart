@@ -2,7 +2,7 @@ import 'base_rule.dart';
 
 class NotContainsRule extends BaseRule {
   NotContainsRule({String target, String errorMsg}) {
-    this.errorMsg("Should not contain $target");
+    this.errorMsg = ("Should not contain $target");
     this._target = target;
   }
 

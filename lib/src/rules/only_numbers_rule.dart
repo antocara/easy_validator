@@ -1,10 +1,10 @@
-import 'base_rule.dart';
 import '../extensions/string_extension.dart';
+import 'base_rule.dart';
 
 class OnlyNumbersRule extends BaseRule {
-  OnlyNumbersRule({String errorMsg = "Should not contain any alphabet characters!"})
+  OnlyNumbersRule(
+      {String errorMsg = "Should not contain any alphabet characters!"})
       : super(errorMsg: errorMsg);
-
 
   @override
   bool validate(String text) {

@@ -1,5 +1,3 @@
-
-
 import 'base_rule.dart';
 
 class RegexRule extends BaseRule {

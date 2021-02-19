@@ -1,4 +1,3 @@
-
 import 'package:easy_validator/src/rules/only_numbers_rule.dart';
 import 'package:test/test.dart';
 
